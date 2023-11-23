@@ -1,0 +1,28 @@
+.ButtonEqual{
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #079cfff5;
+    color: #000000;
+    border-radius: 1rem;
+    border: 2px solid #000000;
+    margin: 0.3rem;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 1.2px 1.2px #353434;
+    height: 3rem;
+    
+    display: flex;
+    flex: 2.2;
+}
+
+.ButtonEqual:hover{
+    background-color: #13c6fde3;
+    color: #000000; 
+    box-shadow: 0.5px 0.5px #000000; 
+}
+
+.ButtonEqual:active{
+    margin-bottom: 0.1rem;
+}
